@@ -1,6 +1,6 @@
-import { ArrowRight,Heart  } from "lucide-react";
-import Logo from "./components/Logo";
-import Image from "next/image";
+import { ArrowRight,Heart  } from "lucide-react"
+import Logo from "./components/Logo"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -136,7 +136,8 @@ export default function Home() {
         {/* Box single full width */}
         <div className="bg-[#F3F3F3] col-span-1 md:col-span-2 rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow flex flex-col md:flex-row justify-between gap-6">
           <div>
-            <p className="text-2xl">Let's make thigs happen</p>
+            <p className="text-2xl">Let&apos;s make thigs happen</p>
+
             <p className="mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
               Repudiandae atque inventore nam dolores sapiente libero eius <br />
